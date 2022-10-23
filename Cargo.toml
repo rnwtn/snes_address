@@ -1,0 +1,10 @@
+[package]
+name = "snes_address"
+version = "0.1.0"
+edition = "2021"
+description = "A library for translating memory address for SNES games"
+license = "MIT"
+
+[dependencies]
+thiserror = "1.*"
+
