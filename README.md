@@ -21,7 +21,7 @@ fn lorom_to_pc(lorom_address: usize) -> Result<usize, AddressError> {
     snes_address::lorom_to_pc(lorom_address)
 }
 
-fn compress_data(pc_address: usize) -> Result<usize, AddressError> {
+fn pc_to_lorom(pc_address: usize) -> Result<usize, AddressError> {
     snes_address::pc_to_lorom(pc_address)
 }
 ```
